@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    background:white;
+    color:black;
+    padding:80px 20px;
+}
+
+.photo{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    margin-bottom:20px;
+}
+
+section h2{
+    margin-bottom:30px;
+    text-align:center;
+}
+
+.card{
+    margin-top:20px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
